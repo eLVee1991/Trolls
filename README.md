@@ -4,24 +4,20 @@ Use this script to troll someones mouse. It will move the mouse a random number 
 Have fun by creating your own installer script with py2app or pyinstaller! ;)
 
 ## How to run
-Run the following command in your terminal:
+#### Run the following command in your terminal:
 
-git clone https://github.com/eLVee1991/Trolls.git
-
-pip(3) install -r requirements.txt (for OSX only)
-
-python(3) mousemover.py
+- git clone https://github.com/eLVee1991/Trolls.git
+- pip(3) install -r requirements.txt (for OSX only)
+- python(3) mousemover.py
 
 ## Modules
 It needs the following modules on python for other OSX.
 
 .Windows:
-
-pip install pyautogui
+- pip install pyautogui
 
 .Linux:
-
-pip3 install python3-xlib && sudo apt-get install scrot && sudo apt-get install python3-tk && sudo apt-get install python3-dev && pip3 install pyautogui
+- pip3 install python3-xlib && sudo apt-get install scrot && sudo apt-get install python3-tk && sudo apt-get install python3-dev && pip3 install pyautogui
 
 
 I will create a new script that will install all the dependencies soon!!
