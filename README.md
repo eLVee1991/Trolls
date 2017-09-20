@@ -8,9 +8,9 @@ Run the following command in your terminal:
 
 git clone https://github.com/eLVee1991/Trolls.git
 
-cd Trolls
+pip(3) install -r requirements.txt
 
-python mousemover.py
+python(3) mousemover.py
 
 ## Modules
 It needs the following modules on python
