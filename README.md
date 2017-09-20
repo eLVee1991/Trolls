@@ -7,7 +7,7 @@ Have fun by creating your own installer script with py2app or pyinstaller! ;)
 Run the following command in your terminal:
 
 git clone https://github.com/eLVee1991/Trolls.git
-
+cd Trolls
 python mousemover.py
 
 ## Modules
