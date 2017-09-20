@@ -8,21 +8,18 @@ Run the following command in your terminal:
 
 git clone https://github.com/eLVee1991/Trolls.git
 
-pip(3) install -r requirements.txt
+pip(3) install -r requirements.txt (for OSX only)
 
 python(3) mousemover.py
 
 ## Modules
-It needs the following modules on python
-1. Mac:
+It needs the following modules on python for other OSX.
 
-pip install pyobjc-core && pip install pyobjc && pip install pyautogui
-
-2. Windows:
+.Windows:
 
 pip install pyautogui
 
-3. Linux:
+.Linux:
 
 pip3 install python3-xlib && sudo apt-get install scrot && sudo apt-get install python3-tk && sudo apt-get install python3-dev && pip3 install pyautogui
 
