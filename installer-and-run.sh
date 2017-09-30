@@ -11,7 +11,7 @@ virtualenv venv
 . venv/bin/activate
 pip3 install -r requirements.txt
 python3 evilmouse.py
-/Desktop"
+cd "$HOME/Desktop"
 rm -rf evilmouse
 printf "-"*60 "/n"
 echo "You have been trolled."
