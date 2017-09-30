@@ -7,8 +7,8 @@ Have fun by creating your own installer script with py2app or pyinstaller! ;)
 #### Run the following command in your terminal:
 
 - git clone https://github.com/eLVee1991/Trolls.git
-- pip(3) install -r requirements.txt (for OSX only)
-- python(3) mousemover.py
+- bash installer-and-run.sh
+- python(3) evilmouse.py or python(3)mousemover.py (for a more friendly troll)
 
 ## Modules
 It needs the following modules on python for other OSX.
