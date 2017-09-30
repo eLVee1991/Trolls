@@ -1,7 +1,6 @@
 #! /usr/bin/bash
 
 echo "Fuck your life. You will be running evilmouse in a minny"
-cd
 # cd "$HOME/Desktop"
 mkdir evilmouse
 cd evilmouse
