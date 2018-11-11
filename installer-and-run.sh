@@ -4,7 +4,7 @@ echo "Fuck your life. You will be running evilmouse in a minny"
 cd "$HOME/Desktop"
 mkdir evilmouse
 cd evilmouse
-wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/evilmouse.py
+wget https://github.com/eLVee1991/Trolls/blob/master/evilmouse.py
 wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/requirements.txt
 virtualenv venv
 . venv/bin/activate
