@@ -4,8 +4,8 @@ echo "Fuck your life. You will be running evilmouse in a minny"
 cd "$HOME/Desktop"
 mkdir evilmouse
 cd evilmouse
-wget https://github.com/eLVee1991/Trolls/blob/master/evilmouse.py
-wget https://github.com/eLVee1991/Trolls/blob/master/requirements.txt
+wget "https://github.com/eLVee1991/Trolls/blob/master/evilmouse.py"
+wget "https://github.com/eLVee1991/Trolls/blob/master/requirements.txt"
 virtualenv venv
 . venv/bin/activate
 pip3 install -r requirements.txt
