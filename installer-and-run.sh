@@ -6,16 +6,17 @@ mkdir evilmouse
 cd evilmouse
 wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/evilmouse.py
 wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/requirements.txt
+pip install virtualenv
 virtualenv venv
 . venv/bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 echo ""
 echo ""
 echo "Trolling you now. You're fucked for a while. Your mouse will go crazy."
 echo ""
 echo ""
-python3 evilmouse.py
-pip3 uninstall -r requirements.txt
+python evilmouse.py
+#pip3 uninstall -r requirements.txt
 cd ".."
 rm -rf evilmouse
 echo ""
