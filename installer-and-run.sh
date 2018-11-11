@@ -9,14 +9,13 @@ wget https://raw.githubusercontent.com/eLVee1991/Trolls/master/requirements.txt
 pip install virtualenv
 virtualenv venv
 . venv/bin/activate
-pip install -r requirements.txt
+pip install pyobjc-core && pip install pyobjc && pip install pyautogui
 echo ""
 echo ""
 echo "Trolling you now. You're fucked for a while. Your mouse will go crazy."
 echo ""
 echo ""
 python evilmouse.py
-#pip3 uninstall -r requirements.txt
 cd ".."
 rm -rf evilmouse
 echo ""
